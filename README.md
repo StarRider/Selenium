@@ -16,7 +16,7 @@ I did the scarping on these website. In the files<br>
 2. selenium_tut3.py<br>
 
 # Rules Related to Scraping 
-There are rules on scraping. If you don't do it they proper way then your project work could backfire you and you might be facing some litigation issues.<br>
+There are rules on scraping. If you don't do it the proper way then your project work could backfire you and you might be facing some litigation issues.<br>
 To get the basic idea on the legal and ethical aspects of scraping view these links:<br>
 1. https://www.quora.com/Is-scraping-and-crawling-to-collect-data-illegal
 2. https://www.datahen.com/legal-ethical-aspects-data-scraping/
