@@ -28,9 +28,9 @@ To get the basic idea on the legal and ethical aspects of scraping view these li
 
 # Lets Scrap Amazon
 In order to scrap Amazon, I have used BeautifulSoup library of python too apart from selenium. Currently the scraping of mobile names and their respective links are done till now. But the extracted links doesn't match this happens because the Amazon's website is javascript encrypted. Hence when you run the following command
->> html_page = urllib.request.urlopen(self.url)
-This gets you the page source code which is before modification by the javascript. In order to get the page source which we desire I used selenium's command
->> html_page = self.driver.page_source
+>> html_page = urllib.request.urlopen(self.url)<br>
+This gets you the page source code which is before modification by the javascript. In order to get the page source which we desire I used selenium's command<br>
+>> html_page = self.driver.page_source<br>
 Then on using the BeautifulSoup we can extract our desired links. The links and mobile name are then transformed into a csv file.
 (To understant look amazon_scraper.py)
 
