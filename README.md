@@ -34,7 +34,7 @@ This gets you the page source code which is before modification by the javascrip
 
   >> html_page = self.driver.page_source<br>
   
-Then on using the BeautifulSoup we can extract our desired links. The links and mobile name are then transformed into a csv file.
+Then on using the BeautifulSoup we can extract our desired links,images,prices etc.. The data is then transformed into a csv file.
 (To understant look amazon_scraper.py)
 
 # Goal
