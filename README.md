@@ -27,7 +27,8 @@ To get the basic idea on the legal and ethical aspects of scraping view these li
 3. Posess good intensions about using data. This means that don't use the data you collected from the website, again them in a harmful        manner which affects their business.
 
 # Lets Scrap Amazon
-In order to scrap Amazon, I have used BeautifulSoup library of python too apart from selenium. Currently the scraping of mobile names and their respective links are done till now. Further work is to be done.
+In order to scrap Amazon, I have used BeautifulSoup library of python too apart from selenium. Currently the scraping of mobile names and their respective links are done till now. But the extracted links doesn't match this happens because the Amazon's website is javascript encrypted. Hence when you run the following command
+>>
 (To understant look amazon_scraper.py)
 
 # Goal
