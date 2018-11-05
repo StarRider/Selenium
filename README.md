@@ -34,8 +34,11 @@ This gets you the page source code which is before modification by the javascrip
 
   >> html_page = self.driver.page_source<br>
   
-Then on using the BeautifulSoup we can extract our desired links. The links and mobile name are then transformed into a csv file.
+Then on using the BeautifulSoup we can extract our desired links,images,prices etc.. The data is then transformed into a csv file.
 (To understant look amazon_scraper.py)
+
+# Scraped data
+The Scraped data is stored in file named mobilename_links.csv. The images are in the images folder.
 
 # Goal
 My goal is to achieve an amazon scraper that can scrap the websites review on each mobile automatically for the user and does the analysis let's say emotion analysis.<br>
