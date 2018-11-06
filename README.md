@@ -38,10 +38,24 @@ Then on using the BeautifulSoup we can extract our desired links,images,prices e
 (To understant look amazon_scraper.py)
 
 # Scraped data
-The Scraped data is stored in file named mobilename_links.csv. The images are in the images folder.
+The Scraped data is stored in file named mobilename_links.csv. The images are in the images folder. But for the time being just to show that we can scrap image data I have scraped. Since I am not using them for anaysis purpose I won't scrap images further.
+In order to do analysis I have scraped the user ratings and total number of customers who have rated that phone. 
+
+# Analysis
+The total analysis charts are in the Analysis-result folder.
+1. First I applied KMeans ml algorithm to make cluster on the basis of deal and retail price.
+2. Then I plotted some charts w.r.t the clusters.
+3. I also calculated the best phones to buy in each cluster. In order to do it right I made up a new variable called "compund_rating"
+    >> compound_rating = Mobile_rating * Customers 
+    
+   This would ensure that the selected phones have the highest ratings as well as it is preferred by most people.
+4. The best phones result is stored as csv as well as chart form.
 
 # Goal
 My goal is to achieve an amazon scraper that can scrap the websites review on each mobile automatically for the user and does the analysis let's say emotion analysis.<br>
+
+# Status
+Project Complete!
 
 Stay tuned for more!
 
