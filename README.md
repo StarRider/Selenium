@@ -24,7 +24,7 @@ To get the basic idea on the legal and ethical aspects of scraping view these li
 # Summary of rules
 1. Check that if the website allows scraping.
 2. Don't scrap the websites continuosly. Give the servers time to breath.
-3. Posess good intensions about using data. This means that don't use the data you collected from the website, again them in a harmful        manner which affects their business.
+3. Posess good intensions about using data. This means that don't use the data you collected from the website, against them in a harmful        manner which affects their business.
 
 # Lets Scrap Amazon
 In order to scrap Amazon, I have used BeautifulSoup library of python too apart from selenium. Currently the scraping of mobile names and their respective links are done till now. But the extracted links doesn't match this happens because the Amazon's website is javascript encrypted. Hence when you run the following command<br>
