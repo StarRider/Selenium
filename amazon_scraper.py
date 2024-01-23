@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 31 09:05:39 2018
 
-@author: SHALOM ALEXANDER
+@author: SHARON ALEXANDER
 """
 
 from selenium import webdriver
