@@ -2,7 +2,7 @@
 """
 Created on Mon Nov  5 20:48:04 2018
 
-@author: SHALOM ALEXANDER
+@author: SHARON ALEXANDER
 """
 
 from sklearn.cluster import KMeans
